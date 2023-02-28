@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{8A37A147-EEE6-4852-B3FA-37E582A8CB2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentimentModel", "SentimentModel\SentimentModel.csproj", "{BD8EA836-4CD7-4235-B32F-442A5D3EFF07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{FDC46504-CC8B-4B12-A3DA-315106B91118}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A37A147-EEE6-4852-B3FA-37E582A8CB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A37A147-EEE6-4852-B3FA-37E582A8CB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A37A147-EEE6-4852-B3FA-37E582A8CB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A37A147-EEE6-4852-B3FA-37E582A8CB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8EA836-4CD7-4235-B32F-442A5D3EFF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8EA836-4CD7-4235-B32F-442A5D3EFF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8EA836-4CD7-4235-B32F-442A5D3EFF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8EA836-4CD7-4235-B32F-442A5D3EFF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC46504-CC8B-4B12-A3DA-315106B91118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC46504-CC8B-4B12-A3DA-315106B91118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC46504-CC8B-4B12-A3DA-315106B91118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC46504-CC8B-4B12-A3DA-315106B91118}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
