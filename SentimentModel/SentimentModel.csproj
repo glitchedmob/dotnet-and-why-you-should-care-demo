@@ -11,4 +11,10 @@
         <None Include="SentimentModel.consumption.cs" />
         <None Include="SentimentModel.training.cs" />
     </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="SentimentModel.mlnet">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
 </Project>

@@ -1,0 +1,29 @@
+using Microsoft.AspNetCore.Mvc;
+using SentimentModel;
+using Shared;
+
+namespace Api.Controllers;
+
+[ApiController]
+[Route("/sentiment")]
+public class SentimentController
+{
+    [HttpGet]
+    public SentimentResult Get([FromQuery] string review)
+    {
+        var modelInput = new Model.ModelInput
+        {
+            Col0 = review,
+        };
+
+        var sortedScoresWithLabel = Model.PredictAllLabels(modelInput);
+
+        var score = sortedScoresWithLabel.First();
+
+        return new SentimentResult
+        {
+            IsPositive = score.Key == "1",
+            Accuracy = score.Value,
+        };
+    }
+}
