@@ -20,10 +20,14 @@ public class SentimentController
 
         var score = sortedScoresWithLabel.First();
 
-        return new SentimentResult
+        var result =  new SentimentResult
         {
             IsPositive = score.Key == "1",
             Accuracy = score.Value,
         };
+
+        Console.WriteLine(result.FormatForDisplay());
+
+        return result;
     }
 }
