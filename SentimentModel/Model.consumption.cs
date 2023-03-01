@@ -59,7 +59,6 @@ namespace SentimentModel
 
         private static PredictionEngine<ModelInput, ModelOutput> CreatePredictEngine()
         {
-            Console.WriteLine(MLNetModelPath);
             var mlContext = new MLContext();
             ITransformer mlModel = mlContext.Model.Load(MLNetModelPath, out var _);
             return mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);

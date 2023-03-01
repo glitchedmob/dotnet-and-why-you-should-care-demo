@@ -16,9 +16,7 @@ public class SentimentController
             Col0 = review,
         };
 
-        var sortedScoresWithLabel = Model.PredictAllLabels(modelInput);
-
-        var score = sortedScoresWithLabel.First();
+        var score = Model.PredictAllLabels(modelInput).First();
 
         var result =  new SentimentResult
         {
