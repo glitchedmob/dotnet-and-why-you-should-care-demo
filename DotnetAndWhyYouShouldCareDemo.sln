@@ -1,19 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{8A37A147-EEE6-4852-B3FA-37E582A8CB2D}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{8A37A147-EEE6-4852-B3FA-37E582A8CB2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentimentModel", "SentimentModel\SentimentModel.csproj", "{BD8EA836-4CD7-4235-B32F-442A5D3EFF07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentModel", "SentimentModel\SentimentModel.csproj", "{BD8EA836-4CD7-4235-B32F-442A5D3EFF07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{9391F662-44BB-447C-9F3A-59F0A6839C3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "App\App.csproj", "{9391F662-44BB-447C-9F3A-59F0A6839C3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0ABEC141-8DE3-4413-BA0C-38ECD2165CFD}"
 	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
 		.editorconfig = .editorconfig
+		.gitignore = .gitignore
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{D75BB4F6-6A67-4A7D-B4A8-AD508960407B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{D75BB4F6-6A67-4A7D-B4A8-AD508960407B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,11 +34,15 @@ Global
 		{BD8EA836-4CD7-4235-B32F-442A5D3EFF07}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9391F662-44BB-447C-9F3A-59F0A6839C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9391F662-44BB-447C-9F3A-59F0A6839C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9391F662-44BB-447C-9F3A-59F0A6839C3E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{9391F662-44BB-447C-9F3A-59F0A6839C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9391F662-44BB-447C-9F3A-59F0A6839C3E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D75BB4F6-6A67-4A7D-B4A8-AD508960407B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D75BB4F6-6A67-4A7D-B4A8-AD508960407B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D75BB4F6-6A67-4A7D-B4A8-AD508960407B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D75BB4F6-6A67-4A7D-B4A8-AD508960407B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
