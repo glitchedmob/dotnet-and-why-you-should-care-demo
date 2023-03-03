@@ -12,7 +12,7 @@ namespace SentimentModel
         {
             Console.WriteLine("Traning model...");
 
-            Model.Train(Path.GetFullPath("SentimentModel.mlnet"));
+            Model.Train(AppDomain.CurrentDomain.BaseDirectory + "SentimentModel.mlnet");
 
             Console.WriteLine("Model trained");
         }
