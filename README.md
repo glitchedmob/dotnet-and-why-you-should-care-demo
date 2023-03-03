@@ -20,3 +20,8 @@
   - Navigate to the `App` project directory
   - run `dotnet build -t:Run -f net7.0-maccatalyst`
     - Note: this will only work on a Mac. There is some [additional setup](https://learn.microsoft.com/en-us/dotnet/maui/windows/setup?view=net-maui-7.0) required to run/deploy the MAUI app on Windows.
+
+## Notes
+
+The code in this repo was thrown together rather quickly and hasn't been tested on a lot of platforms other than Mac OS.
+If you run into an issue trying to run this project feel free to open an issue.
